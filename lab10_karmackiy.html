@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+  //Задание1
+var i = 0;
+while (i<3){
+  i=i+1;
+  alert("число= "+i);
+}
+
+  //Задание2
+var a = 100;
+while (a>=0){
+    alert("число = "+ a);
+ a=a-20;
+ }
+//Задание3
+ var a = +prompt();
+ var sum = 0;
+   while(a != 0){
+     sum += a;//sum = sum + a
+     a = +prompt('Введите числа:')
+   }
+   alert(sum);
+
+//Задание4
+   var i = 10;
+     while (i<15){
+       i++;
+       console.log(i);
+     }
+
+ //Задание5
+ for (i=10; i<15;){
+   i++;
+   console.log(i);
+ }
+
+ console.log('Задание 6');
+ var val=0, s=0;
+ do {
+     val = +prompt('a');
+     s += val * val;
+ }
+ while (s < 100)
+ console.log("s = " + s)
+
+console.log('Задание 7');
+var val = 0, s = 0;
+do {
+    val = +prompt('a');
+    if (val > 0) {
+        s += val + val;
+    }
+    if (val < 0) {
+        s += val * val;
+    }
+}
+while (s < 100)
+console.log("s = " + s)
+
+  </script>
+</body>
+</html>
